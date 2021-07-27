@@ -19,7 +19,7 @@
 #' @import pracma
 #' @export 
 #' @examples
-#' StudentDGP(n=50, p=0.5, rho=0.999, theta=0.9)
+#' StudentDGP(n=50, beta=0.5, rho=0.999, theta=0.9)
 #' @references
 #'  \insertAllCited{}
 #' @importFrom Rdpack reprompt

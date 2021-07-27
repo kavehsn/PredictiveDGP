@@ -16,7 +16,7 @@
 #' @import pracma
 #' @export 
 #' @examples
-#' NormalDGP(n=50, p=0.5, theta=0.999, rho=0.9)
+#' NormalDGP(n=50, beta=0.5, theta=0.999, rho=0.9)
 #' @references
 #' \insertAllCited{}
 #' @importFrom Rdpack reprompt

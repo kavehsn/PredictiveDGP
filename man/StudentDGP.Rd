@@ -25,7 +25,7 @@ DGP with \eqn{t(3)} perturbations can be found in \insertCite{dufour1995exact;te
 where \eqn{w_t\sim N(0,1)}. Finally, the contemporaneous correlation between the disturbances \eqn{\varepsilon_t} and \eqn{u_t} is captured by \eqn{\rho\varepsilon_t+w_t\sqrt{1-\rho^2}}.
 }
 \examples{
-StudentDGP(n=50, p=0.5, rho=0.999, theta=0.9)
+StudentDGP(n=50, beta=0.5, rho=0.999, theta=0.9)
 }
 \references{
 \insertAllCited{}

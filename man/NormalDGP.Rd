@@ -23,7 +23,7 @@ of the predictive regression, \eqn{\varepsilon_t}, are distributed \eqn{\varepsi
 where \eqn{w_t\sim N(0,1)}. Finally, the contemporaneous correlation between the disturbances \eqn{\varepsilon_t} and \eqn{u_t} is captured by \eqn{u_t=\rho\varepsilon_t+w_t\sqrt{1-\rho^2}}.
 }
 \examples{
-NormalDGP(n=50, p=0.5, theta=0.999, rho=0.9)
+NormalDGP(n=50, beta=0.5, theta=0.999, rho=0.9)
 }
 \references{
 \insertAllCited{}

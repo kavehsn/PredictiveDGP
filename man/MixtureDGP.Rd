@@ -24,7 +24,7 @@ where \eqn{P(s_t=0)=P(s_t=1)=0.5} for all \eqn{t}. An example of a DGP with mixt
 where \eqn{w_t\sim N(0,1)}. Finally, the contemporaneous correlation between the disturbances \eqn{\varepsilon_t} and \eqn{u_t} is captured by \eqn{\rho\varepsilon_t+w_t\sqrt{1-\rho^2}}.
 }
 \examples{
-MixtureDGP(n=50, p=0.5, theta=0.999, rho=0.9)
+MixtureDGP(n=50, beta=0.5, theta=0.999, rho=0.9)
 }
 \references{
 \insertAllCited{}
