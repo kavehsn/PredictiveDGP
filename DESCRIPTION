@@ -1,23 +1,21 @@
 Package: PredictiveDGP
-Title: Predictive DGPs exhibiting various distributions,
-        contemporaneous correlations and persistency
+Title: Predictive DGPs exhibiting various distributions
 Version: 1.0.0
 Authors@R: 
     person(given = "Kaveh",
            family = "Salehzadeh Nobari",
            role = c("aut", "cre"),
-           email = "cnobari@gmail.com",
+           email = "k.salehzadehnobari@lancaster.ac.uk",
            comment = c(ORCID = "0000-0002-4053-0781"))
 Description: This package generates the data vectors Y and X using a simple predictive regression model with no intercept and a single regressor. The regressor follows an AR(1) process with no trend and intercept. This framework was initially studied by Mankiw and Shapiro (1986). For each R function, the predictor's errors are distributed according to a standard Normal distribution, whereas the disturbances of the predictive regression are changed according to the function of choice. The degree of contemporaneous correlaion and persistency of the regressors is in the hands of the investigator.
 Imports: Rdpack (>= 0.7)
 RdMacros: Rdpack
 License: GPL (>= 3)
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1.9000
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-02-18 01:47:04 UTC; kaveh
+Packaged: 2021-07-27 00:36:46 UTC; salehzad
 Author: Kaveh Salehzadeh Nobari [aut, cre]
     (<https://orcid.org/0000-0002-4053-0781>)
-Maintainer: Kaveh Salehzadeh Nobari <cnobari@gmail.com>
+Maintainer: Kaveh Salehzadeh Nobari <k.salehzadehnobari@lancaster.ac.uk>
